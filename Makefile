@@ -14,6 +14,7 @@ define Package/luci-app-mentohust
 	SUBMENU:=3. Applications
 	TITLE:=MentoHUST 802.1X Client for LuCI
 	PKGARCH:=all
+	DEPENDS:=+mentohust
 endef
 
 define Package/luci-app-mentohust/description
